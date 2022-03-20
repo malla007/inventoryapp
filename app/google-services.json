@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "6891094500",
+    "project_id": "inventory-project-b07ac",
+    "storage_bucket": "inventory-project-b07ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6891094500:android:e08c1e8952e4b8759287f1",
+        "android_client_info": {
+          "package_name": "com.vegfru.inventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6891094500-cg68p1vasspg3sdg7q1lilf2fsfr8mk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCawj4Ul61ZlHzu1wUAIaFSI_uRE6x_XYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6891094500-cg68p1vasspg3sdg7q1lilf2fsfr8mk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

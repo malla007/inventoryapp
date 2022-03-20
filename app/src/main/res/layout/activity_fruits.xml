@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:id="@+id/linearLayoutProduct"
+    >
+    <RelativeLayout
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Fruits"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/fimg"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:id="@+id/product_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Product Name"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <EditText
+            android:id="@+id/product_quantity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <EditText
+            android:id="@+id/product_price_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/add_Product_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD FRUIT"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:onClick="addFruitClick"
+        />
+
+</LinearLayout>
+</ScrollView>
